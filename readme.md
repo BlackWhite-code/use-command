@@ -21,4 +21,9 @@ git remote add origin git@github.com:BlackWhite-code/xxx.git
 git push -u origin master
 ```
 ### qusetion
-
+1. if you already add remote before, you don't add remote repository.
+2. if you meet the question as the last question:
+``` bash
+git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Pleas
+```
+you should reset the SSH.
