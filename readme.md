@@ -36,6 +36,11 @@ git push origin master
 git rm --cached fileName
 # del the directory in git bash
 git rm -r --cached directoryName
+```
+``` bash
+# pull the file from remote repository, the meaning of command is pull the code
+# from remote origin down to local master to merge code.
+git pull origin master
 
 ```
 ### qusetion
