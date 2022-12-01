@@ -20,6 +20,24 @@ git remote add origin git@github.com:BlackWhite-code/xxx.git
 # push your file to the remote repository.
 git push -u origin master
 ```
+``` bash
+# del the file
+# there are two ways to del the file
+# this way do not execute the 'git add '
+git rm + fileName
+git commit -m "delete the file."
+git push origin master
+# the second way to remove the file
+rm -rf fileName
+git add -u
+git commit -m "delete the file."
+git push origin master
+# del the remote file in git bash
+git rm --cached fileName
+# del the directory in git bash
+git rm -r --cached directoryName
+
+```
 ### qusetion
 1. if you already add remote before, you don't add remote repository.
 2. if you meet the question as the last question:
@@ -27,4 +45,5 @@ git push -u origin master
 git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please
 ```
 you should reset the SSH.
+
 
