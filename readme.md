@@ -24,7 +24,7 @@ git push -u origin master
 # del the file
 # there are two ways to del the file
 # this way do not execute the 'git add '
-git rm + fileName
+git rm fileName
 git commit -m "delete the file."
 git push origin master
 # the second way to remove the file
