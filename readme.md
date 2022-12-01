@@ -24,8 +24,7 @@ git push -u origin master
 1. if you already add remote before, you don't add remote repository.
 2. if you meet the question as the last question:
 ``` bash
-git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Pleas
+git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please
 ```
 you should reset the SSH.
 
-This is a test!
