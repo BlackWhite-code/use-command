@@ -41,7 +41,7 @@ git rm -r --cached directoryName
 # pull the file from remote repository, the meaning of command is pull the code
 # from remote origin down to local master to merge code.
 git pull origin master
-
+this is a test!!!
 ```
 ### qusetion
 1. if you already add remote before, you don't add remote repository.
